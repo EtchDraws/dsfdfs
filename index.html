@@ -5,44 +5,13 @@
 <title>Page Title</title>
 </head>
 	<style>
-		header.gradient {
-    background-color: #7eb;
-    background-image: -webkit-linear-gradient( right,#9cf 0%,#f9c 25%,#ec8 50%,#7eb 75%,#9cf 100% );
-    background-image: -moz-linear-gradient( right,#9cf 0%,#f9c 25%,#ec8 50%,#7eb 75%,#9cf 100% );
-    background-image: linear-gradient( to right,#9cf 0%,#f9c 25%,#ec8 50%,#7eb 75%,#9cf 100% );
-    background-size: 400% 100%;
-    -webkit-animation: header-anim 30s infinite linear;
-    -moz-animation: header-anim 30s infinite linear;
-    animation: header-anim 30s infinite linear;
-}
-		header {
-    position: absolute;
-    display: block;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 400px;
-    margin: 0;
-}
-		{
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-		header {
-    display: block;
-}
-		
-		
+		.container
+    img(src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/221808/sky.jpg").background
+    p.message all your dreams can come true<br>if you have the courage to pursue them
+    - for (i = 1; i <= 100; i++)
+      .circle-container
+        .circle
 	</style>
-  <header class="gradient">
-			
-		</header>
-<body>
-<canvas class="surface" width="1348" height="400" style="width: 1348px; height: 400px;"></canvas>
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
-
 </body>
 </html>
 
